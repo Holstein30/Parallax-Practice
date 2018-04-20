@@ -1,1 +1,53 @@
-@import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/@import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+@import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/
+@import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Hind", sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+h1 {
+  color: #4a4444;
+  font-family: "Nobile", sans-serif;
+  font-size: 175%;
+  letter-spacing: 3px;
+  padding: 3% 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #4a4444;
+  font-family: "Nobile", sans-serif;
+  letter-spacing: 1%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #4a4444;
+  padding: 2%;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#banner-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Start Image Slider */
+
+/* End Image Slider */
