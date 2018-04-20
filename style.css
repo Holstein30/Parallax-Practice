@@ -50,4 +50,47 @@ img {
 
 /* Start Image Slider */
 
+.slider {
+  width: 100%;
+}
+
+.slider1 img {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+  outline: 0 none;
+  position: absolute;
+  text-indent: -9999px;
+  top: 40%;
+  height: 71px;
+  width: 40px;
+  z-index: -1;
+  transition: all 0.7s;
+}
+
+.slider .bx-wrapper:hover .bx-controls-direction a {
+  z-index: 5;
+}
+
+.slider .bx-wrapper .bx-prev {
+  background: #000 url("img/left-arrow-white.png") no-repeat 8px 13px;
+  margin-left: 0;
+  opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+  opacity: 0.6;
+}
+
+.slider .bx-wrapper .bx-next {
+  background: #000 url("img/right-arrow-white.png") no-repeat 10px 12px;
+  margin-right: 0;
+  opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-next:hover {
+  opacity: 0.6;
+}
 /* End Image Slider */
